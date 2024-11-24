@@ -1,0 +1,54 @@
+@base <http://www.semanticweb.org/ser531/ontologies-svjain3/Conference> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix smw: <http://www.semanticweb.org/ser531/ontologies/Conference#> .
+
+smw:ICSC2022 a smw:Conference;
+  smw:conferenceYear "2022";
+  smw:belongsToConferenceSeries "ICSC" .
+
+smw:Template-based%20Question%20Answering%20using%20Recursive%20Neural%20Networks%20
+  a smw:Paper;
+  smw:hasAuthor smw:Ram%2C%20Athreya, smw:Srividya%2C%20Bansal, smw:Ricardo%2C%20Usbeck;
+  smw:publishedIn smw:ICSC2022;
+  smw:paperPages "195-198";
+  smw:paperDOI "10.1109/ICSC50631.2021.00041";
+  smw:paperTitle "Template-based Question Answering using Recursive Neural Networks " .
+
+smw:Ram%2C%20Athreya a smw:Author .
+
+smw:Srividya%2C%20Bansal a smw:Author .
+
+smw:Ricardo%2C%20Usbeck a smw:Author .
+
+smw:SAC2021 a smw:Conference;
+  smw:conferenceYear "2021";
+  smw:belongsToConferenceSeries "SAC" .
+
+smw:OntoConnect%3A%20Unsupervised%20Ontology%20Alignment%20with%20Recursive%20Neural%20Network%20
+  a smw:Paper;
+  smw:hasAuthor smw:Jaydeep%2C%20Chakraborty, smw:Luca%2C%20Virgili, smw:Srividya%2C%20Bansal;
+  smw:publishedIn smw:SAC2021;
+  smw:paperPages "1874-1882";
+  smw:paperDOI "10.1145/3412841.3442059";
+  smw:paperTitle "OntoConnect: Unsupervised Ontology Alignment with Recursive Neural Network " .
+
+smw:Jaydeep%2C%20Chakraborty a smw:Author .
+
+smw:Luca%2C%20Virgili a smw:Author .
+
+smw:ICSC2019 a smw:Conference;
+  smw:conferenceYear "2019";
+  smw:belongsToConferenceSeries "ICSC" .
+
+smw:Data%20Partitioning%20Scheme%20for%20Efficient%20Distributed%20RDF%20Querying%20Using%20Apache%20Spark
+  a smw:Paper;
+  smw:hasAuthor smw:Mahmudul%2C%20Hassan, smw:Sriivdya%2C%20Bansal;
+  smw:publishedIn smw:ICSC2019;
+  smw:paperPages "24-31";
+  smw:paperDOI "0.1109/ICOSC.2019.8665614";
+  smw:paperTitle "Data Partitioning Scheme for Efficient Distributed RDF Querying Using Apache Spark" .
+
+smw:Mahmudul%2C%20Hassan a smw:Author .
+
+smw:Sriivdya%2C%20Bansal a smw:Author .
